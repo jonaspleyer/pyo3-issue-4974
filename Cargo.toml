@@ -1,0 +1,11 @@
+[workspace]
+edition = "2021"
+resolver = "2"
+
+members = [
+    "crate1",
+    "examples/*"
+]
+
+[workspace.dependencies]
+pyo3 = "0.22"
